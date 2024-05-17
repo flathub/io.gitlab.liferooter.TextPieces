@@ -38,8 +38,8 @@ modules:
     append-path: /usr/lib/sdk/rust-stable/bin
   sources:
   - type: archive
-    url: https://gitlab.com/liferooter/textpieces/-/archive/v4.0.4/textpieces-v4.0.4.tar.gz
-    sha256: a2dd722c1c25476dda242252645c6b531cf7f665475d54b8c6f5d657edc24d9f
+    url: https://gitlab.com/liferooter/textpieces/-/archive/v4.0.5/textpieces-v4.0.5.tar.gz
+    sha256: aa1d3f96126b87369cef2a799f7fd0a3470b2cc189c2c00f8d377e38c71a8ae6
   - cargo-sources.json
   - type: shell
     commands:
