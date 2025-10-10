@@ -5,7 +5,7 @@
 id: io.gitlab.liferooter.TextPieces
 
 runtime: org.gnome.Platform
-runtime-version: '48'
+runtime-version: '49'
 
 sdk: org.gnome.Sdk
 sdk-extensions:
@@ -30,7 +30,7 @@ modules:
   sources:
   - type: git
     url: https://gitlab.gnome.org/jwestman/blueprint-compiler
-    tag: v0.16.0
+    tag: v0.18.0
 
 - name: textpieces
   buildsystem: meson
@@ -38,8 +38,8 @@ modules:
     append-path: /usr/lib/sdk/rust-stable/bin
   sources:
   - type: archive
-    url: https://gitlab.com/liferooter/textpieces/-/archive/v4.2.0/textpieces-v4.2.0.tar.gz
-    sha256: 01a20dde1fcafe690d9963fc6e832a3386ce1d0161031d21a5e12ad37a56dfb6
+    url: https://gitlab.com/liferooter/textpieces/-/archive/v4.3.0/textpieces-v4.3.0.tar.gz
+    sha256: 73fc923030f326b8160f02a33a348f606931b5b92c384d887473bcb789c76011
   - cargo-sources.json
   - type: shell
     commands:
