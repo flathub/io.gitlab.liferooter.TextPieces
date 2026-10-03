@@ -5,7 +5,7 @@
 id: io.gitlab.liferooter.TextPieces
 
 runtime: org.gnome.Platform
-runtime-version: '49'
+runtime-version: '51'
 
 sdk: org.gnome.Sdk
 sdk-extensions:
@@ -29,8 +29,8 @@ modules:
     append-path: /usr/lib/sdk/rust-stable/bin
   sources:
   - type: archive
-    url: https://gitlab.com/liferooter/textpieces/-/archive/4.3.1/textpieces-4.3.1.tar.gz
-    sha256: 27f24c9eb8b4ce358ab676da76200e33623ea327ff8518712de2a72354a1339c
+    url: https://gitlab.com/liferooter/textpieces/-/archive/4.3.2/textpieces-4.3.2.tar.gz
+    sha256: 436d673034fe3c939664ee4ec24289cea5d7773d72a6f78959dccf23c449253f
   - cargo-sources.json
   - type: shell
     commands:
